@@ -1,5 +1,5 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
-import NotesService from './services/notes.service';
+import NotesService from './notes.service';
 import { CreateNoteDto } from './dto/createNote.dto';
 // import UpdateNoteDto from './dto/updateNote.dto';
  
